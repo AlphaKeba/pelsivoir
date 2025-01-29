@@ -2,7 +2,7 @@
 	"name": "svelte-latest",
 	"version": "0.0.1",
 	"scripts": {
-		"start": "svelte-kit start",
+		"start": "npm run dev",
 		"dev": "vite dev",
 		"build": "npx svelte-kit build",
 		"preview": "vite preview",
