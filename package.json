@@ -1,20 +1,20 @@
 {
 	"name": "svelte-latest",
 	"version": "0.0.1",
-"scripts": {
-    "start": "svelte-kit start",  
-    "dev": "vite dev",
-    "build": "npm install && npm svelte-kit build",  
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d build",
-    "package": "svelte-kit sync && svelte-package && publint",
-    "prepublishOnly": "npm run package",
-    "format": "prettier --write .",
-    "lint": "prettier --check . && eslint .",
-    "test:unit": "vitest",
-    "test": "npm run test:unit -- --run && npm run test:e2e",
-    "test:e2e": "playwright test"
-},
+	"scripts": {
+		"start": "svelte-kit start",
+		"dev": "vite dev",
+		"build": "npx svelte-kit build",
+		"preview": "vite preview",
+		"deploy": "vite build && gh-pages -d build",
+		"package": "svelte-kit sync && svelte-package && publint",
+		"prepublishOnly": "npm run package",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint .",
+		"test:unit": "vitest",
+		"test": "npm run test:unit -- --run && npm run test:e2e",
+		"test:e2e": "playwright test"
+	},
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
@@ -39,7 +39,7 @@
 		"@eslint/compat": "^1.2.3",
 		"@playwright/test": "^1.45.3",
 		"@sveltejs/adapter-node": "^5.2.9",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/kit": "^2.16.1",
 		"@sveltejs/package": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"autoprefixer": "^10.4.20",
