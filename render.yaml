@@ -1,8 +1,9 @@
+
 services:
   - type: web
-    name: sveltekit-app
+    name: svelte-app
     env: node
-    buildCommand: "npm run build"
+    buildCommand: "npm install && npm run build"
     startCommand: "npm run start"
     branch: main
     plan: free
