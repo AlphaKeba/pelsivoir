@@ -4,7 +4,7 @@
 	"scripts": {
 		"start": "npm run dev",
 		"dev": "vite dev",
-		"build": "npx svelte-kit build",
+		"build": "npm svelte-kit build",
 		"preview": "vite preview",
 		"deploy": "vite build && gh-pages -d build",
 		"package": "svelte-kit sync && svelte-package && publint",
