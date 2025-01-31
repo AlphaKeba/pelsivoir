@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"start": "npm run dev",
-		"dev": "vite dev",
+		"dev": "npx vite dev",
 		"build": "npm start build",
 		"preview": "vite preview",
 		"deploy": "vite build && gh-pages -d build",
