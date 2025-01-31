@@ -4,6 +4,6 @@ services:
     name: svelte-app
     env: node
     buildCommand: "npm install && npm run build"
-    startCommand: "npm run dev"
+    startCommand: "vite dev"
     branch: main
     plan: free
